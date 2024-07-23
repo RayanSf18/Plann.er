@@ -1,6 +1,7 @@
 <h1 align="center" style="font-weight: bold;">Plann.er 💻</h1>
 
 <p align="center">
+ <a href="#functionalities">Functionalities</a> • 
  <a href="#technologies">Technologies</a> • 
  <a href="#getting-started">Getting Started</a> • 
  <a href="#api-endpoints">API Endpoints</a> •
@@ -11,6 +12,15 @@
 <p align="center">
     <b>Plann.er is a backend application developed to help users organize their trips, whether for work or leisure. With Plann.er, you can create trips, add activities for each day and invite participants, making it easier to manage and plan every detail of the trip.</b>
 </p>
+
+<h2 id="functionalities">💻 Functionalities</h2>
+
+- **Cadastro de Viagens:** Usuários podem cadastrar várias viagens.
+- **Atualização de Viagens:** Usuários podem atualizar os detalhes das viagens.
+- **Exclusão de Viagens:** Usuários podem deletar viagens.
+- **Convite de Participantes:** Usuários podem convidar participantes para a viagem.
+- **Adição de Atividades:** Criadores e participantes podem adicionar atividades que serão realizadas durante a viagem.
+- **Adição de Links:** Criadores e participantes podem adicionar links importantes relacionados à viagem.
 
 <h2 id="technologies">💻 Technologies</h2>
 
