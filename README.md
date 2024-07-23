@@ -10,17 +10,17 @@
 </p>
 
 <p align="center">
-    <b>Plann.er is a backend application developed to help users organize their trips, whether for work or leisure. With Plann.er, you can create trips, add activities for each day and invite participants, making it easier to manage and plan every detail of the trip.</b>
+    <b>Plann.er is an application developed to help users organize their trips, whether for work or leisure.</b>
 </p>
 
 <h2 id="functionalities">💻 Functionalities</h2>
 
-- **Cadastro de Viagens:** Usuários podem cadastrar várias viagens.
-- **Atualização de Viagens:** Usuários podem atualizar os detalhes das viagens.
-- **Exclusão de Viagens:** Usuários podem deletar viagens.
-- **Convite de Participantes:** Usuários podem convidar participantes para a viagem.
-- **Adição de Atividades:** Criadores e participantes podem adicionar atividades que serão realizadas durante a viagem.
-- **Adição de Links:** Criadores e participantes podem adicionar links importantes relacionados à viagem.
+- **Create Trips:** Register multiple trips with all the necessary details.
+- **Update Trips:** Edit trip information at any time.
+- **Delete Trips:** Remove trips that are no longer necessary.
+- **Invite Participants:** Send invitations to other people to participate in the trip.
+- **Add Activities:** Enter specific activities for each day of the trip. This functionality can be used by both the trip creator and the participants.
+- **Manage Important Links:** Add and share relevant links such as accommodation reservations, places to visit and other useful information. Both the trip creator and participants can manage these links.
 
 <h2 id="technologies">💻 Technologies</h2>
 
