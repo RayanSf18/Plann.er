@@ -68,31 +68,19 @@ http://localhost:8080/
 
 | route               | description                                          
 |----------------------|-----------------------------------------------------
-| <kbd>POST /trips</kbd>     | create a new trip 
-| <kbd>GET /trips/{tripId}</kbd>     | search for a specific trip by ID
-| <kbd>GET /trips</kbd>     | Search all trips 
-| <kbd>GET trips/{tripId}/confirm</kbd>     | Confirm the trip
-| <kbd>PUT /trips/{tripId}</kbd>     | update trip data by id 
-| <kbd>DELETE /trips/{tripId}</kbd>     | delete a trip by id
-| <kbd>POST /trips/{tripId}/activities</kbd>     | create a new activity
-| <kbd>GET /trips/{tripId}/activities</kbd>     | search all Activities from a trip by ID 
-| <kbd>POST /trips/{tripId}/invite</kbd>     | invite a new participant
-| <kbd>GET /trips/{tripId}/participants</kbd>     | search all Participants from a trip by ID
-| <kbd>POST /trips/{tripId}/links</kbd>     | create a new link
-| <kbd>GET /trips/{tripId}/links</kbd>     | search all links from a trip by ID 
-
-
-
-
-| <kbd>PUT /categories/{categoryId}</kbd>     | update data for a specific category [request details](#put-category)
-| <kbd>DELETE /categories/{categoryName}</kbd>     | deletes a specific category that has not yet been added to an product [request details](#delete-category)
-| <kbd>POST /orders</kbd>     | create a new order [request details](#post-order-create)
-| <kbd>GET /orders/{orderId}</kbd>     | search for a specific order [response details](#get-order-detail)
-| <kbd>GET /orders</kbd>     | search all orders [response details](#get-orders-details)
-| <kbd>POST /orders/{orderId}/items?productId={productId}&quantity={quantity}</kbd>     | add product to order [request details](#post-add-product-to-order)
-| <kbd>POST /orders/{orderId}/items/remove?productId={productId}</kbd>     | remove product to order [request details](#post-remove-product-to-order)
-| <kbd>POST /orders/{orderId}/payment</kbd>     | add payment to order [request details](#post-add-payment-to-order)
-| <kbd>POST /orders/{orderId}/cancel</kbd>     | delete order [request details](#delete-order)
+| <kbd>POST /trips</kbd>     | This endpoint creates a new trip with the provided details.
+| <kbd>GET /trips/{tripId}</kbd>     | Fetches the details of a trip using its unique identifier (UUID).
+| <kbd>GET /trips</kbd>     | This endpoint searches for all trips within a date range, or if no parameter is passed, returns all trips.
+| <kbd>GET /trips/{tripId}/confirm</kbd>     | This endpoint serves to confirm that a trip will occur after its creation.
+| <kbd>PUT /trips/{tripId}</kbd>     | This endpoint allows us to update data from an existing trip.
+| <kbd>DELETE /trips/{tripId}</kbd>     | This endpoint allows you to delete an existing trip by id
+| <kbd>POST /trips/{tripId}/activities</kbd>     | This endpoint is used to add a new activity to an existing trip by id.
+| <kbd>GET /trips/{tripId}/activities</kbd>     | This endpoint searches for all activities registered in an existing trip by ID.
+| <kbd>POST /trips/{tripId}/invite</kbd>     | This endpoint is for inviting a new participant via email to the existing trip by ID.
+| <kbd>GET /trips/{tripId}/participants</kbd>     | This endpoint searches for all participants registered in an existing trip by ID.
+| <kbd>POST /trips/{tripId}/links</kbd>     | This endpoint is used to add a new link to an existing trip by id.
+| <kbd>GET /trips/{tripId}/links</kbd>     | This endpoint searches for all links registered in an existing trip by ID.
+| <kbd>GET /participants/{participantId}/confirm</kbd>     | This endpoint serves to confirm a participant after being invited on the trip.
 
 <h2 id="developer">👨‍💻 Developer</h2>
 <table>
